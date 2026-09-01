@@ -1,0 +1,5 @@
+# Explicitly tells Netlify this is a static site with no build step,
+# so it never tries to auto-detect and run a build command that doesn't exist.
+[build]
+  publish = "."
+  command = ""
